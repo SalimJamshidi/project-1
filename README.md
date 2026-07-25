@@ -96,9 +96,32 @@ Cheltenham Hubs is your central guide to events, activities, and community space
 ### Final Design Mockups
 *(To be added once design is finalised)*
 
+
 ## Wireframes
 
+### Home Page
+<img src="images/home page.jpeg" alth="homepage" width="700">
 
+### Safety & Support
+<img src="images/safety supports sections.jpeg" alth="safety support" width="700">
+
+### Health Services
+<img src="images/health services.jpeg" alt="health" width="700">
+
+### ebveryday essentials
+<img src="images/shoping centers.jpeg" alth="shoping" width="700">
+
+### Family & Community
+<img src="images/famliy community sections.jpeg" alt="family" width="700">
+
+### getting around
+<img src="images/transport sections.jpeg" alt="transport" width="700">
+
+### Charity support services
+<img src="images/charity section.jpeg" alt="charity" width="700">
+
+### Education
+<imag src="images/uni sections.jpeg" alt="uni" widt="700">
 
 
 
