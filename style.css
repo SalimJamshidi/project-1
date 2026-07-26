@@ -301,6 +301,7 @@ footer::before {
     box-shadow: 0 10px 22px var(--color-brown-shadow);
     padding: 1.35rem 1.1rem;
     min-height: 210px;
+    
 }
 
 .safety-box h3 {
@@ -308,6 +309,7 @@ footer::before {
     font-family: var(--font-heading);
     color: var(--color-text-dark);
     font-size: 1.24rem;
+    
 }
 
 .safety-box p {
