@@ -123,6 +123,12 @@ Cheltenham Hubs is your central guide to events, activities, and community space
 ### Education
 <imag src="images/uni sections.jpeg" alt="uni" widt="700">
 
+## Mobile wirframes
+
+<img src="images/mobile.wire.jpeg" alt="Mobile wireframe for Cheltenham Hubs showing a smartphone style page with stacked content sections and tap friendly navigation, guiding users through local events, leisure options, and key community information in a clean and structured layout. The wider environment is a low fidelity design canvas focused on layout planning. The overall tone is practical, clear, and welcoming." width="700">
+
+<img src="images/mobile.wire2.jpeg" alt="Second mobile wireframe for Cheltenham Hubs showing an additional smartphone page layout with vertically arranged blocks, clear headings, and button areas for browsing activities, making enquiries, and finding support services. The wider environment is a simple planning mockup used to test responsive structure. The overall tone is calm, organised, and user friendly." width="700">
+
 
 
 
