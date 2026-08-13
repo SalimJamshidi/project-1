@@ -60,6 +60,16 @@ main {
     color: var(--color-text-dark);
 }
 
+/* Homepage explore section surface */
+.explore-section {
+    max-width: 1200px;
+    padding: 2.25rem 1.25rem 2.5rem;
+    border-radius: 28px;
+    background: linear-gradient(180deg, rgba(255, 250, 247, 0.96) 0%, rgba(249, 239, 231, 0.92) 100%);
+    border: 1px solid rgba(58, 38, 32, 0.08);
+    box-shadow: 0 18px 40px rgba(58, 38, 32, 0.08);
+}
+
 .content h2 {
     margin-bottom: 0.75rem;
     font-size: clamp(1.6rem, 3vw, 2.3rem);
@@ -82,11 +92,20 @@ main {
 
 .info-box {
     /* Card surface styling */
-    padding: 1.25rem 1rem;
-    border: 1px solid var(--color-brown-soft);
-    background-color: #fffaf7;
+    padding: 1.35rem 1.15rem 1.25rem;
+    border: 1px solid rgba(58, 38, 32, 0.09);
+    border-top: 4px solid var(--color-light-blue-text);
+    border-radius: 18px;
+    background: linear-gradient(180deg, #ffffff 0%, #fff8f3 100%);
     text-align: left;
-    box-shadow: 0 8px 18px var(--color-brown-shadow);
+    box-shadow: 0 10px 24px rgba(58, 38, 32, 0.08);
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.info-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 28px rgba(58, 38, 32, 0.12);
+    border-color: rgba(47, 93, 133, 0.2);
 }
 
 .info-box h3 {
@@ -296,12 +315,20 @@ footer::before {
 
 .safety-box {
     /* Reusable support card style */
-    background-color: #fffaf7;
-    border: 1px solid var(--color-brown-soft);
-    box-shadow: 0 10px 22px var(--color-brown-shadow);
-    padding: 1.35rem 1.1rem;
+    background: linear-gradient(180deg, #ffffff 0%, #fff8f3 100%);
+    border: 1px solid rgba(58, 38, 32, 0.09);
+    border-top: 4px solid var(--color-light-blue-text);
+    border-radius: 18px;
+    box-shadow: 0 10px 24px rgba(58, 38, 32, 0.08);
+    padding: 1.35rem 1.15rem 1.25rem;
     min-height: 210px;
-    
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.safety-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 28px rgba(58, 38, 32, 0.12);
+    border-color: rgba(47, 93, 133, 0.2);
 }
 
 .safety-box h3 {
