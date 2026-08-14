@@ -185,6 +185,8 @@ Hosted using **GitHub Pages**
 
 
 ### Bugs & Fixes
-*(To be updated while i build)*
-- No issues found yet — will be added here if any come up
-
+- **Images not showing** → Fixed file paths and spelling
+- **CSS not loading** → Fixed link to stylesheet in HTML
+- **Mobile layout messy** → Added viewport and responsive sizing
+- **Links broken** → Corrected file names and paths
+- **Text hard to read** → Improved colors and contrast
