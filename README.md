@@ -96,6 +96,23 @@ Cheltenham Hubs is your central guide to events, activities, and community space
 ### Final Design Mockups
 *(To be added once design is finalised)*
 
+### finished pics of my project
+## laptop veiw 
+<img src="images/desk.jpeg alth="mobile wirframe" width="700">
+
+## ipad veiw
+<img src="images/ipad.jpeg alth="mobile wirframe" width="700">
+
+## mobile veiw
+<img src="images/phone.jpeg alth="mobile wirframe" width="700">
+
+
+
+
+
+
+
+
 
 ## Wireframes
 
@@ -145,6 +162,7 @@ Cheltenham Hubs is your central guide to events, activities, and community space
 
 ##  Credits
 - Bootstrap 5 framework: https://getbootstrap.com/
+- vs Code 
 
 ## 🚀 Deployment
 
