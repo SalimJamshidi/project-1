@@ -98,13 +98,13 @@ Cheltenham Hubs is your central guide to events, activities, and community space
 
 ### finished pics of my project
 ## laptop veiw 
-<img src="images/desk.jpeg alth="mobile wirframe" width="700">
+<img src="images/desk.jpeg alth="desktop veiw ready" width="700">
 
 ## ipad veiw
-<img src="images/ipad.jpeg alth="mobile wirframe" width="700">
+<img src="images/ipad.jpeg alth="ipad ready veiw " width="700">
 
 ## mobile veiw
-<img src="images/phone.jpeg alth="mobile wirframe" width="700">
+<img src="images/phone.jpeg alth="mobile ready veiw" width="700">
 
 
 
