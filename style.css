@@ -21,6 +21,10 @@ html {
 
 body {
     /* Top padding keeps content clear of fixed navbar */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100svh;
     margin: 0;
     padding-top: 72px;
     font-family: var(--font-body);
@@ -276,6 +280,7 @@ footer {
     /* Full-width footer block with brand gradient */
     position: relative;
     isolation: isolate;
+    margin-top: auto;
     background: linear-gradient(180deg, #4a3128 0%, #3a2620 70%);
     color: var(--color-cream);
     width: 100%;
