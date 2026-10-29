@@ -170,20 +170,62 @@ Cheltenham Hubs is your central guide to events, activities, and community space
 
 ### Running Locally
 1. Go to the GitHub repository
+2. Clone or download the repository, then open its project folder in a terminal.
+3. Start a local server from the project folder:
+   ```bash
+   python3 -m http.server 8000
+   ```
+
 
 ### Live Website
 Hosted using **GitHub Pages**
+
+### Current Site Limitations
+- The site is static and does not use a server or database to store form submissions.
+- Submitting the booking form opens the visitor's configured email app; the visitor must send the email themselves.
+- Bootstrap and Font Awesome are loaded from external CDNs, so those resources need an internet connection.
 
 
 ## 🧪 Testing
 
 ### User Story Testing
+User testing can be carried out with people who represent the site's intended audience. Ask each participant to try the tasks below without guidance, then record whether they completed each task and any feedback or difficulties. Results are marked as pending until real participants have tested the site.
+
+| Test task | Success criteria | Result |
+|---|---|---|
+| Find information about a local event. | The participant finds the Events page and can identify event details. | Not yet tested |
+| Find family and community information. | The participant navigates to Families & Communities and finds relevant information. | Not yet tested |
+| Use the Book link to open the form. | The participant reaches the booking form from the navigation. | Not yet tested |
+| Submit the booking form with missing or invalid details. | Required fields and email format validation are clear to the participant. | Not yet tested |
+| Browse the site on a phone-sized screen. | The participant can navigate and read the page without horizontal scrolling or clipped content. | Not yet tested |
+
+After testing, replace each pending result with the observed outcome and add a short note describing participant feedback and any changes made.
 
 
 ### Responsive Testing
+Check each page at representative phone, tablet, and desktop viewport widths using browser developer tools. At each size, verify that the navigation can be opened and used, text and images fit the screen, cards and sections reflow without overlap, and the footer is fully visible without horizontal scrolling.
+
+| Viewport | Checks | Result |
+|---|---|---|
+| Phone (320–767 px) | Open and use the collapsed navigation; check readable text, images, forms, and footer; confirm there is no horizontal scrolling or clipped content. | Not yet tested |
+| Tablet (768–1199 px) | Check navigation, page layout, cards, and footer for overlap or clipping. | Not yet tested |
+| Desktop (1200 px and wider) | Check the expanded navigation, content alignment, images, and footer at narrow and wide desktop widths. | Not yet tested |
+
+Record the browser, viewport size, outcome, and any issues found after completing these checks.
 
 
 ### Validation & Checks
+Run the following checks before release and record the result for each:
+
+| Check | How to check | Result |
+|---|---|---|
+| HTML validity | Validate each HTML page with the [W3C Markup Validation Service](https://validator.w3.org/). Review and fix reported errors. | Not yet tested |
+| CSS validity | Validate `style.css` with the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). Review and fix reported errors. | Not yet tested |
+| Navigation and page links | Open each navigation link and confirm it reaches the intended page; check that the Book link opens the booking form. | Not yet tested |
+| Booking form | Check that required fields and email format validation work, then confirm submission opens the configured email app with the entered details. | Not yet tested |
+| Images and accessibility basics | Check that images load and have meaningful alternative text; use the site navigation and form with a keyboard. | Not yet tested |
+
+.
 
 
 ### Bugs & Fixes
