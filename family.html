@@ -41,6 +41,7 @@
                         <a class="nav-link" href="safety.support.html">Safety &amp; Support</a>
                         <a class="nav-link" href="getting.html">Getting Around</a>
                         <a class="nav-link active" href="family.html">Family & Communities</a>
+                        <a class="nav-link book-link" href="family.html#booking-form">Book</a>
 
 
                     </div>
@@ -123,6 +124,35 @@
             </section>
         </header>
 
+        <section class="container py-5" id="booking-form">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <h2 class="text-center mb-3">Booking &amp; Contact Form</h2>
+                    <p class="text-center">Fill out the form and submit it using your email app.</p>
+                    <form action="mailto:salimjamshidi12@gmail.com" method="post" enctype="text/plain">
+                        <div class="mb-3">
+                            <label for="booking-name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="booking-name" name="Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="booking-email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="booking-email" name="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="booking-subject" class="form-label">Booking or enquiry</label>
+                            <input type="text" class="form-control" id="booking-subject" name="Booking or enquiry"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="booking-details" class="form-label">Details</label>
+                            <textarea class="form-control" id="booking-details" name="Details" rows="4"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
 
         <!--footer-->

@@ -193,6 +193,22 @@ main {
     background-color: rgba(249, 239, 231, 0.12);
 }
 
+.navbar .book-link {
+    color: var(--color-white);
+    background-color: var(--color-light-blue-text);
+    border: 1px solid var(--color-light-blue-text);
+    transition: background-color 180ms ease, color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.navbar .book-link:hover,
+.navbar .book-link:focus-visible {
+    color: var(--color-white);
+    background-color: #244966;
+    border-color: #244966;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 .navbar-toggler {
     /* Mobile menu button dimensions and alignment */
     border-color: rgba(249, 239, 231, 0.8);
